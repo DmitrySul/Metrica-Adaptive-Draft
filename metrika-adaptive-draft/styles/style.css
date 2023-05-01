@@ -5,6 +5,7 @@
 @import "/styles/reviews.css";
 @import "/styles/gallery.css";
 @import "/styles/contacts.css";
+@import "/styles/footer.css";
 
 html {
   scroll-behavior: smooth;
@@ -17,6 +18,11 @@ body {
   width: 1150px;
   margin: 0 auto;
 }
+
+.container-black {
+  background-color: #121212;
+}
+
 .main__inner {
   padding-top: 70px;
 }
