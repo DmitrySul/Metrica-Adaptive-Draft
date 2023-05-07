@@ -1,0 +1,52 @@
+.interior h1 {
+  margin-bottom: 32px;
+}
+.interior__img {
+  height: 500px;
+  position: relative;
+  background-image: url(../resources/interior.png);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.interior__img p {
+  position: absolute;
+  max-width: 430px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  bottom: 40px;
+  left: 40px;
+}
+
+@media (max-width: 1199px) {
+  .interior h1 {
+    margin-bottom: 30px;
+  }
+  .interior__img {
+    height: 400px;
+    background-image: url(../resources/interior-tablet.png);
+  }
+  .interior__img p {
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .interior h1 {
+    margin-bottom: 25px;
+  }
+  .interior__img {
+    max-height: 304px;
+    background-image: url(../resources/interior-phone.png);
+  }
+  .interior__img p {
+    max-width: 312px;
+    font-size: 16px;
+    line-height: 22px;
+    bottom: 15px;
+    left: 15px;
+  }
+}

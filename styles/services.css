@@ -1,0 +1,123 @@
+.services {
+  background-color: #121212;
+}
+
+.service__wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.services h2 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.service__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 80px;
+  margin-bottom: 104px;
+}
+.service__item {
+  width: calc(50% - 5px);
+  position: relative;
+}
+.service__item img {
+  margin-bottom: 19px;
+  width: 100%;
+}
+.service__item p {
+  position: absolute;
+  left: 30px;
+  top: 31px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  background: #ad1818;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.services h3 {
+  color: #ffffff;
+}
+.btn_order_service {
+  width: 100%;
+  font-size: 30px;
+  line-height: 41px;
+  background: #ad1818;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 56px;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+@media (max-width: 1199px) {
+  .service__wrapper {
+    margin: 0 auto;
+    padding-top: 149px;
+    padding-left: 18px;
+    padding-right: 15px;
+  }
+  .service__list {
+    row-gap: 80px;
+    margin-bottom: 77px;
+  }
+  .service__item p {
+    left: 32px;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 7px 27px;
+  }
+  .service__item img {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .service__wrapper {
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-left: 14px;
+    padding-right: 11px;
+  }
+  .services h2 {
+    margin-left: 3px;
+    margin-bottom: 20px;
+  }
+  .service__list {
+    flex-direction: column;
+    row-gap: 58px;
+    margin-bottom: 60px;
+  }
+  .service__item {
+    width: 100%;
+  }
+  .services h2 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .service__item p {
+    left: 24px;
+    top: 23px;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 5px 24px;
+    border-radius: 3.8px;
+  }
+  .service__item img {
+    margin-bottom: 10px;
+  }
+  .btn_order_service {
+    font-size: 22px;
+    line-height: 30px;
+    border-radius: 3.8px;
+    padding: 37px;
+    margin-bottom: -5px;
+  }
+}
