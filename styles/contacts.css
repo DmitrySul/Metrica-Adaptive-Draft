@@ -21,11 +21,11 @@
 }
 
 .contacts__phone::before {
-  background-image: url(/resources/phone.png);
+  background-image: url(../resources/phone.png);
 }
 
 .contacts__mail::before {
-  background-image: url(/resources/mail.png);
+  background-image: url(../resources/mail.png);
 }
 
 .contacts__phone {
