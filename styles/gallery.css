@@ -30,7 +30,6 @@
   bottom: 165px;
   z-index: 100;
   display: flex;
-  gap: 14px;
 }
 
 .gallery__prev,

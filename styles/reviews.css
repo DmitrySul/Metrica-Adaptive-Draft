@@ -69,7 +69,7 @@
   
   .reviews_inner {
     flex-direction: column;
-    row-gap: 80px;
+    row-gap: 76px;
   }
   .review {
     width: 100%;

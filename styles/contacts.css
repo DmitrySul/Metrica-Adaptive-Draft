@@ -21,11 +21,11 @@
 }
 
 .contacts__phone::before {
-  background-image: url(../resources/phone.png);
+  background-image: url(./resources/phone.png);
 }
 
 .contacts__mail::before {
-  background-image: url(../resources/mail.png);
+  background-image: url(./resources/mail.png);
 }
 
 .contacts__phone {
@@ -39,7 +39,7 @@
 .contacts__mail {
   display: inline-block;
   font-size: 60px;
-  line-height: 60px;
+  line-height: 50px;
   opacity: 0.5;
 }
 

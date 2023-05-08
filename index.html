@@ -15,28 +15,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <header class="header">
+    <header>
       <div class="container">
         <div class="header-inner">
-          <div class="logo">
-            <img src="./resources/logo.png" alt="логотип Метрика">
-          </div>
+          <picture>
+            <source
+              srcset="./resources/logo-phone.png"
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./resources/logo-pc.png"
+              alt="черный стол с серыми стульями"
+            />
+          </picture>
+
           <nav class="nav">
             <a href="#about-us" class="nav__link">О НАС </a>
             <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
             <a href="#services" class="nav__link">УСЛУГИ</a>
             <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
           </nav>
-          <button class="burger__btn"></button>
+
+          <div class="js-burger-btn burger-btn"></div>
+        </div>
+      </div>
+      <div class="js-burger burger">
+        <div class="burger__content">
+          <div class="burger-logo">
+            <img src="./resources/burger-logo.png" alt="логотип Метрика" />
+          </div>
+          <nav class="burger-nav">
+            <a href="#about-us" class="burger-nav__link">О НАС </a>
+            <a href="#projects" class="burger-nav__link">ПРОЕКТЫ</a>
+            <a href="#services" class="burger-nav__link">УСЛУГИ</a>
+            <a href="#contacts" class="burger-nav__link">КОНТАКТЫ</a>
+          </nav>
+  
+          <div class="burger-contacts js-burger__content">
+            <p>для связи:</p>
+            <a href="tel:+79358954535" class="burger-contacts__phone"
+              >+7 935 895-45-35</a
+            >
+  
+            <a
+              href="https://t.me/ezhik_ds"
+              class="burger-contacts__mail"
+              target="_blank"
+              >ezhik_ds</a
+            >
+          </div>
         </div>
       </div>
     </header>
-    <div class="js-burger burger">
-      <div class="js-burger__content burger__content"></div>
-    </div>
     
-    
-    
+
     <main>
       <div class="container">
         <div class="main__inner">
@@ -69,11 +101,11 @@
                 <picture>
                   <source
                     media="(max-width: 767px)"
-                    srcset=".resources/right-bank-phone.png"
+                    srcset="./resources/right-bank-phone.png"
                   />
                   <source
                     media="(max-width: 1199px)"
-                    srcset=".resources/right-bank-tablet.png"
+                    srcset="./resources/right-bank-tablet.png"
                   />
                   <img
                     src="./resources/right-bank.png"
@@ -321,7 +353,8 @@
         <a href="#contacts" class="footernav__link">КОНТАКТЫ</a>
       </nav>
       <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>
-    </footer>-->
+    </footer>
+    -->
 
     <script src="./gallery.js"></script>
     <script src="./popup.js"></script>
