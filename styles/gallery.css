@@ -48,11 +48,11 @@
 }
 
 .gallery__prev {
-  background-image: url(./resources/control-prev.png);
+  background-image: url(../resources/control-prev.png);
 }
 
 .gallery__next {
-  background-image: url(./resources/control-prev.png);
+  background-image: url(../resources/control-prev.png);
   transform: rotate(180deg);
 }
 .gallery__slides {
