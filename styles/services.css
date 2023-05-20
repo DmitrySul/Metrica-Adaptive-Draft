@@ -58,7 +58,7 @@
   }
   .service__list {
     row-gap: 80px;
-    margin-bottom: 77px;
+    margin-bottom: 60px;
   }
   .service__item p {
     left: 32px;
@@ -81,7 +81,7 @@
   }
   .service__list {
     flex-direction: column;
-    row-gap: 58px;
+    row-gap: 55px;
   }
   .service__item {
     width: 100%;
