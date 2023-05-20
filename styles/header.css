@@ -1,11 +1,10 @@
 header {
-  margin-top: 33px;
+  margin: 33px 0 70px 0;
 }
 
 .header-inner {
   display: flex;
   justify-content: space-between;
-  align-items: top;
 }
 
 .nav {
@@ -21,14 +20,31 @@ header {
   text-decoration: none;
   color: #121212;
 }
+
+.nav__link:after {
+  content: "";
+  background-color: #121212;
+  display: block;
+  opacity: 0.5;
+  width: 0%;
+  height: 1px;
+}
+
 .nav__link:hover {
   opacity: 0.5;
-  border-bottom: 1px solid #000000;
+}
+
+.nav__link:hover:after {
+  width: 100%;
 }
 
 @media (max-width: 1199px) {
   .nav {
     display: none;
   }
-
+}
+@media (max-width: 767px) {
+  header {
+    margin: 33px 0 57.76px 0;
+  }
 }

@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
@@ -25,7 +24,7 @@
             />
             <img
               src="./resources/logo-pc.png"
-              alt="черный стол с серыми стульями"
+              alt="логотип Метрика"
             />
           </picture>
 
@@ -50,13 +49,13 @@
             <a href="#services" class="burger-nav__link">УСЛУГИ</a>
             <a href="#contacts" class="burger-nav__link">КОНТАКТЫ</a>
           </nav>
-  
+
           <div class="burger-contacts js-burger__content">
             <p>для связи:</p>
             <a href="tel:+79358954535" class="burger-contacts__phone"
               >+7 935 895-45-35</a
             >
-  
+
             <a
               href="https://t.me/ezhik_ds"
               class="burger-contacts__mail"
@@ -67,99 +66,99 @@
         </div>
       </div>
     </header>
-    
 
     <main>
-      <div class="container">
-        <div class="main__inner">
-          <section class="interior">
-            <h1>Современные и стильные <br />интерьеры для комфортной жизни</h1>
-            <div class="interior__img">
-              <p>
-                Мы - команда квалифицированных дизайнеров и архитекторов,
-                занимающихся разработкой и реализацией дизайн-проектов
-              </p>
-            </div>
-          </section>
-
-          <section id="about-us" class="about-us">
-            <h2>О НАС</h2>
+      <section class="interior">
+        <div class="container">
+          <h1>Современные и стильные <br />интерьеры для комфортной жизни</h1>
+          <div class="interior__img">
             <p>
-              Студия основана в 2011 году. Полностью отдаемся проектированию и
-              реализации интерьеров. К нам обращаются за уютом, индивидуальными
-              решениями и практичностью. Находим конструктивные решения для
-              каждого интерьера, вплоть до каждой детали — нацелены на
-              результат.
+              Мы - команда квалифицированных дизайнеров и архитекторов,
+              занимающихся разработкой и реализацией дизайн-проектов
             </p>
-            <a class="btn_services">Посмотреть услуги</a>
-          </section>
-
-          <section id="projects" class="projects">
-            <h2>ПРОЕКТЫ</h2>
-            <ul>
-              <li class="project__item">
-                <picture>
-                  <source
-                    media="(max-width: 767px)"
-                    srcset="./resources/right-bank-phone.png"
-                  />
-                  <source
-                    media="(max-width: 1199px)"
-                    srcset="./resources/right-bank-tablet.png"
-                  />
-                  <img
-                    src="./resources/right-bank.png"
-                    alt="красный диван с гитарой"
-                  />
-                </picture>
-                <h3>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
-                <a>Подробнее →</a>
-              </li>
-              <li class="project__item">
-                <picture>
-                  <source
-                    srcset="./resources/norwegian-phone.png"
-                    media="(max-width: 767px)"
-                  />
-                  <source
-                    srcset="./resources/norwegian-tablet.png"
-                    media="(max-width: 1199px)"
-                  />
-                  <img
-                    src="./resources/norwegian.png"
-                    alt="серый диван с желтым столиком и желтыми подушками"
-                  />
-                </picture>
-                <h3>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-                <a>Подробнее →</a>
-              </li>
-              <li class="project__item">
-                <picture>
-                  <source
-                    srcset="./resources/lakes-phone.png"
-                    media="(max-width: 767px)"
-                  />
-                  <source
-                    srcset="./resources/lakes-tablet.png"
-                    media="(max-width: 1199px)"
-                  />
-                  <img
-                    src="./resources/lakes.png"
-                    alt="черный стол с серыми стульями"
-                  />
-                </picture>
-                <h3>ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-                <a>Подробнее →</a>
-              </li>
-            </ul>
-            <a class="btn_all_projects">Смотреть все проекты</a>
-          </section>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <section id="services" class="services">
-        <div class="service__wrapper">
-          <h2>УСЛУГИ</h2>
+      <section id="about-us" class="about-us">
+        <div class="container">
+          <h2>О НАС</h2>
+          <p>
+            Студия основана в 2011 году. Полностью отдаемся проектированию и
+            реализации интерьеров. К нам обращаются за уютом, индивидуальными
+            решениями и практичностью. Находим конструктивные решения для
+            каждого интерьера, вплоть до каждой детали — нацелены на результат.
+          </p>
+          <a href="#services" class="btn_services">Посмотреть услуги</a>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>ПРОЕКТЫ</h2>
+          <ul class="project__list">
+            <li class="project__list_item">
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./resources/right-bank-phone.png"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="./resources/right-bank-tablet.png"
+                />
+                <img
+                  src="./resources/right-bank.png"
+                  alt="красный диван с гитарой"
+                />
+              </picture>
+              <h3>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+              <a>Подробнее →</a>
+            </li>
+            <li class="project__list_item">
+              <picture>
+                <source
+                  srcset="./resources/norwegian-phone.png"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./resources/norwegian-tablet.png"
+                  media="(max-width: 1199px)"
+                />
+                <img
+                  src="./resources/norwegian.png"
+                  alt="серый диван с желтым столиком и желтыми подушками"
+                />
+              </picture>
+              <h3>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+              <a>Подробнее →</a>
+            </li>
+            <li class="project__list_item">
+              <picture>
+                <source
+                  srcset="./resources/lakes-phone.png"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="./resources/lakes-tablet.png"
+                  media="(max-width: 1199px)"
+                />
+                <img
+                  src="./resources/lakes.png"
+                  alt="черный стол с серыми стульями"
+                />
+              </picture>
+              <h3>ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+              <a>Подробнее →</a>
+            </li>
+          </ul>
+          <a href="#gallery" class="btn_all_projects">Смотреть все проекты</a>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <h2 id="services">УСЛУГИ</h2>
 
           <ul class="service__list">
             <li class="service__item">
@@ -205,13 +204,19 @@
               </div>
               <div class="js-popup__close-btn popup__close-btn"></div>
 
-              <input class="input" type="text" placeholder="Имя" />
-              <input
-                class="input"
-                type="text"
-                placeholder="Электронная почта"
-              />
-              <input class="input" type="text" placeholder="Номер телефона" />
+              <form>
+                <input class="input" type="name" placeholder="Имя" />
+                <input
+                  class="input"
+                  type="email"
+                  placeholder="Электронная почта"
+                />
+                <input
+                  class="input"
+                  type="phone"
+                  placeholder="Номер телефона"
+                />
+              </form>
 
               <button class="popup__btn-send">Отправить</button>
             </div>
@@ -219,11 +224,11 @@
         </div>
       </section>
 
-      <div class="container">
-        <section class="reviews">
+      <section class="reviews">
+        <div class="container">
           <h2>ОТЗЫВЫ</h2>
-          <div class="reviews_inner">
-            <div class="review">
+          <ul class="reviews_inner">
+            <li class="review">
               <h4>Ксения, проект 65 кв.м.</h4>
               <div class="review__text">
                 <p>
@@ -239,8 +244,8 @@
                   с Вами результатом!
                 </p>
               </div>
-            </div>
-            <div class="review">
+            </li>
+            <li class="review">
               <h4>Регина, проект 89 кв.м.</h4>
               <div class="review__text">
                 <p>
@@ -255,8 +260,8 @@
                   всем друзьям и знакомым!
                 </p>
               </div>
-            </div>
-            <div class="review">
+            </li>
+            <li class="review">
               <h4>Яна, проект 120 кв.м.</h4>
               <div class="review__text">
                 <p>
@@ -274,11 +279,12 @@
                   предстоит это непростое дело - ремонт!
                 </p>
               </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <section class="section-full">
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="gallery" class="section-full">
         <div class="gallery">
           <div class="container">
             <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
@@ -289,10 +295,13 @@
           </div>
 
           <div class="gallery__slide gallery__slide-active">
-            <img class="gallery__image" src="./resources/forest-landscape.png" />
+            <img
+              class="gallery__image"
+              src="./resources/forest-landscape.png"
+            />
             <div class="container">
               <p class="gallery__text">
-                Проект Двухкомнтаной<br />
+                Проект Двухкомнатной<br />
                 квартиры в ЖК Лесной Пейзаж
               </p>
             </div>
@@ -330,13 +339,15 @@
         <div class="container">
           <h2>КОНТАКТЫ</h2>
           <div class="contacts__block">
-            <a href="tel:+79358954535" class="contacts__phone"
-              >+7 935 895-45-35</a
-            >
+            <div class="contacts__phone">
+              <a href="tel:+79358954535" class="contacts__phone_link"
+                >+7 935 895-45-35</a
+              >
+            </div>
             <div class="contacts__mail">
               <a
                 href="https://t.me/ezhik_ds"
-                class="contacts__link"
+                class="contacts__mail_link"
                 target="_blank"
                 >ezhik_ds</a
               >
@@ -354,7 +365,7 @@
       </nav>
       <p class="footer__title">студия дизайна интерьера Метрика — 2023</p>
     </footer>
-    
+    -->
 
     <script src="./gallery.js"></script>
     <script src="./popup.js"></script>

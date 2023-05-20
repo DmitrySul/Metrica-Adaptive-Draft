@@ -28,7 +28,7 @@
   background-image: url(../resources/mail.png);
 }
 
-.contacts__phone {
+.contacts__phone_link {
   display: block;
   font-size: 60px;
   line-height: 60px;
@@ -36,26 +36,23 @@
   text-decoration: none;
 }
 
-.contacts__mail {
+.contacts__mail_link {
   display: inline-block;
   font-size: 60px;
   line-height: 50px;
   opacity: 0.5;
-}
-
-.contacts__link {
   text-decoration: none;
   color: #121212;
+  padding-bottom: 8px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1199px) {
-  .contacts__phone {
+  .contacts__phone_link {
     font-size: 45px;
   }
-  .contacts__mail {
+  .contacts__mail_link {
     font-size: 45px;
-    opacity: 0.5;
   }
 }
 
@@ -75,16 +72,15 @@
     width: 18px;
     height: 18px;
   }
-  .contacts__phone {
+  .contacts__phone_link {
     font-size: 35px;
     line-height: 46px;
   }
-  .contacts__mail {
+  .contacts__mail_link {
     font-size: 35px;
     line-height: 46px;
     opacity: 1;
-  }
-  .contacts__link {
     border-bottom: none;
   }
+
 }

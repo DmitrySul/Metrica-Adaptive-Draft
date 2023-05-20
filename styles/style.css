@@ -1,3 +1,4 @@
+@import "../styles/reset.css";
 @import "../styles/interior.css";
 @import "../styles/aboutus.css";
 @import "../styles/projects.css";
@@ -16,7 +17,6 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   background-color: #ffffff;
- 
 }
 .container {
   width: 1150px;
@@ -27,12 +27,8 @@ body {
   background-color: #121212;
 }
 
-.main__inner {
-  padding-top: 70px;
-}
-
 section {
-  padding-bottom: 150px;
+  margin-bottom: 150px;
 }
 h1 {
   font-size: 60px;
@@ -59,7 +55,6 @@ h4 {
   letter-spacing: -0.03em;
 }
 
-/*Адаптив*/
 @media (max-width: 1199px) {
   .container {
     width: 100%;
@@ -68,11 +63,11 @@ h4 {
     padding-right: 16px;
   }
   section {
-    padding-bottom: 120px;
+    margin-bottom: 120px;
   }
 
   section:nth-child(3) {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
   
   h1 {
@@ -96,17 +91,12 @@ h4 {
     padding-left: 12px;
     padding-right: 12px;
   }
-  .main__inner {
-    padding-top: 57.76px;
-  }
   section {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
   }
   section:nth-child(3) {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
   }
-  
-  
   h1 {
     max-width: 100%;
     font-size: 30px;
