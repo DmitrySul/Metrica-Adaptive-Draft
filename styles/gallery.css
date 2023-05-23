@@ -7,10 +7,8 @@
 .gallery__title {
   position: absolute;
   top: 67px;
-  font-weight: 400;
   font-size: 22px;
   line-height: 30px;
-  letter-spacing: -0.03em;
   color: #ffffff;
   z-index: 100;
 }
@@ -18,10 +16,8 @@
 .gallery__text {
   position: absolute;
   bottom: 60px;
-  font-weight: 400;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   color: #ffffff;
 }
 .gallery__controls {
@@ -45,6 +41,7 @@
 .gallery__prev:hover,
 .gallery__next:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .gallery__prev {

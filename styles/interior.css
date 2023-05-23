@@ -1,5 +1,6 @@
-.interior h1 {
+.interior__title {
   margin-bottom: 32px;
+  max-width: 956px;
 }
 .interior__img {
   height: 500px;
@@ -12,17 +13,16 @@
 .interior__img p {
   position: absolute;
   max-width: 430px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #ffffff;
   bottom: 40px;
   left: 40px;
 }
 
 @media (max-width: 1199px) {
-  .interior h1 {
+  .interior__title {
+    max-width: 802px;
     margin-bottom: 30px;
   }
   .interior__img {
@@ -35,7 +35,8 @@
 }
 
 @media (max-width: 767px) {
-  .interior h1 {
+  .interior__title {
+    max-width: 337px;
     margin-bottom: 25px;
   }
   .interior__img {
