@@ -41,7 +41,7 @@
   }
 }
 @media (max-width: 767px) {
-  header {
+  .header {
     margin: 33px 0 57.76px 0;
   }
 }
