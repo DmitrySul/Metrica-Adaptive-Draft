@@ -87,15 +87,9 @@ form {
 }
 
 .popup__btn-send {
-  width: 100%;
-  padding: 20px;
-  background: #ad1818;
-  border-radius: 5px;
-  border: none;
-  font-size: 20px;
   line-height: 27px;
-  color: #ffffff;
-  cursor: pointer;
+  font-size: 20px;
+  padding: 20px;
 }
 
 @media (max-width: 1199px) {

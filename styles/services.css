@@ -36,18 +36,9 @@
   color: #ffffff;
 }
 .services__btn_order {
-  width: 100%;
-  font-size: 30px;
   line-height: 41px;
-  background: #ad1818;
-  border-radius: 5px;
-  border: none;
-  display: inline-block;
+  font-size: 30px;
   padding: 56px;
-  color: #ffffff;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
 }
 
 @media (max-width: 1199px) {

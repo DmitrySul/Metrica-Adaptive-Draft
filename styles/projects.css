@@ -17,20 +17,16 @@
   cursor: pointer;
 }
 .projects__btn {
-  display: block;
-  width: 100%;
+  line-height: 41px;
+  font-size: 30px;
   padding: 56px;
   border: 1px solid #ad1818;
-  border-radius: 5px;
-  text-align: center;
   color: #ad1818;
-  font-size: 30px;
-  line-height: 41px;
+  background: #ffffff;
 }
 .projects__btn:hover {
-  background-color: #ad1818;
+  background: #ad1818;
   color: #ffffff;
-  cursor: pointer;
 }
 
 @media (max-width: 1199px) {
@@ -67,5 +63,6 @@
     padding: 37px 0;
     font-size: 22px;
     line-height: 30px;
+    border-radius: 3.8px;
   }
 }

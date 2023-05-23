@@ -3,6 +3,7 @@
   padding: 60px 0 30px 0;
 }
 
+
 .footer__menu-list {
   margin: auto;
   display: flex;
@@ -33,6 +34,7 @@
   .footer {
     padding: 30px 0 26px 0;
   }
+  
   .footer__menu-list {
     max-width: 281px;
   }

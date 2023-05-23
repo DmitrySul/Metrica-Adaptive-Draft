@@ -11,14 +11,10 @@
 .about__btn_services {
   line-height: 27px;
   font-size: 20px;
-  background: #ad1818;
-  border-radius: 5px;
-  display: inline-block;
+  width: 255px;
   padding: 20px 40px;
-  color: #ffffff;
-  cursor: pointer;
-  text-align: center;
 }
+
 
 @media (max-width: 1199px) {
   .about__description {
@@ -41,7 +37,7 @@
     font-size: 16px;
     line-height: 22px;
     background: #ad1818;
-    border-radius: 3.80172px;
+    border-radius: 3.8px;
     display: inline-block;
     padding: 14.5px 27px;
   }

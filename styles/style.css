@@ -62,6 +62,17 @@ button {
   letter-spacing: -0.03em;
 }
 
+.btn {
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  text-align: center; 
+  background: #ad1818;
+  border: none;
+}
+
 @media (max-width: 1199px) {
   .container {
     width: 100%;
