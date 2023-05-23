@@ -11,7 +11,7 @@
 .about__btn_services {
   line-height: 27px;
   font-size: 20px;
-  width: 255px;
+  max-width: 255px;
   padding: 20px 40px;
 }
 
@@ -33,7 +33,7 @@
     line-height: 30px;
   }
   .about__btn_services {
-    width: 100%;
+    max-width: 100%;
     font-size: 16px;
     line-height: 22px;
     background: #ad1818;
