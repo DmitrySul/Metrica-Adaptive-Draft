@@ -65,12 +65,9 @@ button {
 .btn {
   border-radius: 5px;
   cursor: pointer;
-  color: #ffffff;
   display: block;
   width: 100%;
-  text-align: center; 
-  background: #ad1818;
-  border: none;
+  text-align: center;
 }
 
 @media (max-width: 1199px) {
